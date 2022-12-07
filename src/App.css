@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app h2 {
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
+  gap: 20px;
+}
